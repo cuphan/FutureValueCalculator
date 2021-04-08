@@ -1,0 +1,1082 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\css\custom.css">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>css\custom.css</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\images\PavolLogo.jpg">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>images\PavolLogo.jpg</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-grid.css">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\bootstrap\css\bootstrap-grid.css</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-grid.css.map">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\bootstrap\css\bootstrap-grid.css.map</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-grid.min.css">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\bootstrap\css\bootstrap-grid.min.css</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-grid.min.css.map">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\bootstrap\css\bootstrap-grid.min.css.map</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-reboot.css">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\bootstrap\css\bootstrap-reboot.css</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-reboot.css.map">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\bootstrap\css\bootstrap-reboot.css.map</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-reboot.min.css">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\bootstrap\css\bootstrap-reboot.min.css</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-reboot.min.css.map">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\bootstrap\css\bootstrap-reboot.min.css.map</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap.css">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\bootstrap\css\bootstrap.css</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap.css.map">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\bootstrap\css\bootstrap.css.map</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap.min.css">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\bootstrap\css\bootstrap.min.css</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap.min.css.map">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\bootstrap\css\bootstrap.min.css.map</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\js\bootstrap.bundle.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\bootstrap\js\bootstrap.bundle.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\js\bootstrap.bundle.js.map">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\bootstrap\js\bootstrap.bundle.js.map</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\js\bootstrap.bundle.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\bootstrap\js\bootstrap.bundle.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\js\bootstrap.bundle.min.js.map">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\bootstrap\js\bootstrap.bundle.min.js.map</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\js\bootstrap.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\bootstrap\js\bootstrap.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\js\bootstrap.js.map">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\bootstrap\js\bootstrap.js.map</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\js\bootstrap.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\bootstrap\js\bootstrap.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\js\bootstrap.min.js.map">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\bootstrap\js\bootstrap.min.js.map</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\additional-methods.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\additional-methods.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\additional-methods.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\additional-methods.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\jquery.validate.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\jquery.validate.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\jquery.validate.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\jquery.validate.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ar.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_ar.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ar.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_ar.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_az.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_az.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_az.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_az.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_bg.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_bg.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_bg.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_bg.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_bn_BD.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_bn_BD.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_bn_BD.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_bn_BD.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ca.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_ca.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ca.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_ca.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_cs.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_cs.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_cs.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_cs.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_da.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_da.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_da.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_da.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_de.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_de.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_de.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_de.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_el.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_el.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_el.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_el.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_es.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_es.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_es.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_es.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_es_AR.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_es_AR.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_es_AR.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_es_AR.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_es_PE.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_es_PE.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_es_PE.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_es_PE.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_et.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_et.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_et.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_et.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_eu.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_eu.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_eu.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_eu.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_fa.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_fa.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_fa.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_fa.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_fi.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_fi.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_fi.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_fi.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_fr.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_fr.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_fr.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_fr.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ge.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_ge.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ge.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_ge.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_gl.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_gl.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_gl.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_gl.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_he.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_he.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_he.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_he.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_hr.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_hr.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_hr.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_hr.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_hu.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_hu.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_hu.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_hu.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_hy_AM.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_hy_AM.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_hy_AM.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_hy_AM.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_id.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_id.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_id.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_id.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_is.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_is.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_is.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_is.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_it.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_it.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_it.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_it.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ja.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_ja.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ja.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_ja.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ka.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_ka.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ka.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_ka.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_kk.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_kk.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_kk.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_kk.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ko.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_ko.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ko.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_ko.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_lt.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_lt.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_lt.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_lt.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_lv.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_lv.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_lv.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_lv.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_mk.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_mk.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_mk.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_mk.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_my.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_my.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_my.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_my.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_nl.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_nl.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_nl.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_nl.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_no.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_no.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_no.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_no.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_pl.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_pl.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_pl.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_pl.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_pt_BR.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_pt_BR.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_pt_BR.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_pt_BR.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_pt_PT.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_pt_PT.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_pt_PT.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_pt_PT.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ro.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_ro.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ro.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_ro.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ru.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_ru.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ru.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_ru.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_sd.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_sd.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_sd.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_sd.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_si.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_si.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_si.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_si.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_sk.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_sk.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_sk.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_sk.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_sl.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_sl.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_sl.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_sl.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_sr.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_sr.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_sr.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_sr.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_sr_lat.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_sr_lat.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_sr_lat.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_sr_lat.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_sv.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_sv.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_sv.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_sv.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_th.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_th.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_th.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_th.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_tj.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_tj.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_tj.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_tj.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_tr.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_tr.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_tr.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_tr.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_uk.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_uk.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_uk.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_uk.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ur.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_ur.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_ur.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_ur.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_vi.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_vi.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_vi.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_vi.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_zh.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_zh.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_zh.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_zh.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_zh_TW.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_zh_TW.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\messages_zh_TW.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\messages_zh_TW.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\methods_de.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\methods_de.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\methods_de.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\methods_de.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\methods_es_CL.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\methods_es_CL.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\methods_es_CL.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\methods_es_CL.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\methods_fi.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\methods_fi.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\methods_fi.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\methods_fi.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\methods_it.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\methods_it.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\methods_it.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\methods_it.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\methods_nl.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\methods_nl.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\methods_nl.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\methods_nl.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\methods_pt.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\methods_pt.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validate\localization\methods_pt.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validate\localization\methods_pt.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\jquery.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery\jquery.js</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\jquery.min.js">
+      <SourceType>Package</SourceType>
+      <SourceId>FutureValueCalculator</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FutureValueCalculator</BasePath>
+      <RelativePath>lib\jquery\jquery.min.js</RelativePath>
+    </StaticWebAsset>
+  </ItemGroup>
+</Project>
