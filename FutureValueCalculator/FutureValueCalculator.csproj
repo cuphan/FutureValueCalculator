@@ -6,6 +6,7 @@
     <Company>Bill Identity</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <IsPackable>true</IsPackable>
+    <RestoreFallbackFolders>clear</RestoreFallbackFolders>
   </PropertyGroup>
 
 </Project>
