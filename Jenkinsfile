@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    dotnet = 'path\\to\\dotnet.exe'
+    dotnet = '/usr/bin/dotnet'
   }
 
   stages {
