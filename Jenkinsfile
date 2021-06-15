@@ -1,9 +1,9 @@
 pipeline {
   agent { node { label 'windows-slave1' } }
 
-  environment {
-    dotnet = '/usr/bin/dotnet'
-  }
+  //environment {
+  //  dotnet = '/usr/bin/dotnet'
+  //}
 
   stages {
     stage('Checkout') {
@@ -16,19 +16,19 @@ pipeline {
     stage('Restore PACKAGES') {
       steps {
         // sh "dotnet restore --configfile NuGet.Config"
-        sh "dotnet restore"
+        bat "dotnet restore"
       }
     }
 
     stage('Clean') {
       steps {
-        sh 'dotnet clean'
+        bat 'dotnet clean'
       }
     }
 
     stage('Build') {
       steps {
-        sh 'dotnet build --configuration Release'
+        bat 'dotnet build --configuration Release'
       }
     }
 
