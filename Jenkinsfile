@@ -1,5 +1,5 @@
 pipeline {
-  agent any
+  agent { node { label 'windows-slave1' } }
 
   environment {
     dotnet = '/usr/bin/dotnet'
