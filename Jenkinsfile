@@ -1,47 +1,33 @@
 pipeline {
-  agent { node { label 'windows-slave1' } }
+  agent { node { label 'linux-slave-1' } }
 
-  //environment {
-  //  dotnet = '/usr/bin/dotnet'
-  //}
+  environment {
+    dotnet = "/usr/bin/dotnet"
+  }
+
+  options {
+    buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '', numToKeepStr: '5'))
+    disableConcurrentBuilds()
+    ansiColor('xterm')
+  }
 
   stages {
-    stage('Checkout') {
+    stage("Restore") {
       steps {
-        // git credentialsId: 'userId', url: 'https://github.com/NeelBhatt/SampleCliApp', branch: 'master'
-        git url: 'https://github.com/vietphan-billidentity/FutureValueCalculator', branch: 'main'
+        sh "$dotnet restore"
       }
     }
 
-    stage('Restore PACKAGES') {
+    stage("Clean") {
       steps {
-        // sh "dotnet restore --configfile NuGet.Config"
-        bat "dotnet restore"
+        sh "$dotnet clean"
       }
     }
 
-    stage('Clean') {
+    stage("Build") {
       steps {
-        bat 'dotnet clean'
+        sh "$dotnet build --configuration Release"
       }
     }
-
-    stage('Build') {
-      steps {
-        bat 'dotnet build --configuration Release'
-      }
-    }
-
-    // stage('Pack') {
-    //   steps {
-    //     sh 'dotnet pack --no-build --output nupkgs'
-    //   }
-    // }
-
-    // stage('Publish') {
-    //   steps {
-    //     sh "dotnet nuget push **\\nupkgs\\*.nupkg -k yourApiKey -s http://myserver/artifactory/api/nuget/nuget-internal-stable/com/sample"
-    //   }
-    // }
   }
 }
