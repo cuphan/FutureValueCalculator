@@ -24,33 +24,30 @@ pipeline {
       }
     }
 
-    stage("Build PR") {
-      when {
-        branch "PR-*"
-      }
+    stage("Build") {
       steps {
         sh "$dotnet build"
       }
     }
 
-    stage('Build Test') {
+    stage('Deploy Test') {
       when {
         branch "test"
       }
       steps {
         script {
-          sh "$dotnet build -c Test"
+          echo "Run deploy for Testing environment"
         }
       }
     }
 
-    stage('Build Production') {
+    stage('Deploy Production') {
       when {
         branch "main"
       }
       steps {
         script {
-          sh "$dotnet build -c Production"
+          echo "Run deploy for Production environment"
         }
       }
     }
