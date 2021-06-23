@@ -24,9 +24,34 @@ pipeline {
       }
     }
 
-    stage("Build") {
+    stage("Build PR") {
+      when {
+        branch "PR-*"
+      }
       steps {
-        sh "$dotnet build --configuration Release"
+        sh "$dotnet build"
+      }
+    }
+
+    stage('Build Test') {
+      when {
+        branch "test"
+      }
+      steps {
+        script {
+          sh "$dotnet build -c Test"
+        }
+      }
+    }
+
+    stage('Build Production') {
+      when {
+        branch "main"
+      }
+      steps {
+        script {
+          sh "$dotnet build -c Production"
+        }
       }
     }
   }
