@@ -51,7 +51,10 @@ pipeline {
     stage("Build") {
       when {
         not {
-          branch "PR-*"
+          anyOf {
+            branch "PR-*";
+            branch "test"
+          }
         }
       }
       steps {
@@ -66,6 +69,17 @@ pipeline {
       }
       steps {
         sh "$dotnet build"
+      }
+    }
+
+    stage('Build Test') {
+      when {
+        branch "test"
+      }
+      steps {
+        script {
+            sh "$dotnet build -c Test"
+        }
       }
     }
 
