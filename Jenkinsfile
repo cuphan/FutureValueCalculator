@@ -1,18 +1,22 @@
 pipeline {
-  agent { node { label 'linux-slave-1' } }
+  agent { node { label 'linux-master' } }
 
   environment {
     dotnet = "/usr/bin/dotnet"
   }
 
-  options {
-    buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '', numToKeepStr: '5'))
-    disableConcurrentBuilds()
-    ansiColor('xterm')
-  }
-
   stages {
     stage("Restore") {
+      steps {
+        sh "$dotnet restore"
+      }
+    }
+
+    stage('Restore') {
+      agent { node { label 'linux-slave-1' } }
+      when {
+        branch "PR-*"
+      }
       steps {
         sh "$dotnet restore"
       }
@@ -24,7 +28,27 @@ pipeline {
       }
     }
 
+    stage("Clean") {
+      agent { node { label 'linux-slave-1' } }
+      when {
+        branch "PR-*"
+      }
+      steps {
+        sh "$dotnet clean"
+      }
+    }
+
     stage("Build") {
+      steps {
+        sh "$dotnet build"
+      }
+    }
+
+    stage("Build") {
+      agent { node { label 'linux-slave-1' } }
+      when {
+        branch "PR-*"
+      }
       steps {
         sh "$dotnet build"
       }
