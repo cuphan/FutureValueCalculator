@@ -7,6 +7,11 @@ pipeline {
 
   stages {
     stage("Restore") {
+      when {
+        not {
+          branch "PR-*"
+        }
+      }
       steps {
         sh "$dotnet restore"
       }
@@ -23,6 +28,11 @@ pipeline {
     }
 
     stage("Clean") {
+      when {
+        not {
+          branch "PR-*"
+        }
+      }
       steps {
         sh "$dotnet clean"
       }
@@ -39,6 +49,11 @@ pipeline {
     }
 
     stage("Build") {
+      when {
+        not {
+          branch "PR-*"
+        }
+      }
       steps {
         sh "$dotnet build"
       }
