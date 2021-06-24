@@ -78,7 +78,8 @@ pipeline {
       }
       steps {
         script {
-            sh "$dotnet build -c Test"
+          echo "Build for test environment"
+          sh "$dotnet build"
         }
       }
     }
