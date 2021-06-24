@@ -12,7 +12,7 @@ pipeline {
       }
     }
 
-    stage('Restore') {
+    stage('Restore PR') {
       agent { node { label 'linux-slave-1' } }
       when {
         branch "PR-*"
@@ -28,7 +28,7 @@ pipeline {
       }
     }
 
-    stage("Clean") {
+    stage("Clean PR") {
       agent { node { label 'linux-slave-1' } }
       when {
         branch "PR-*"
@@ -44,7 +44,7 @@ pipeline {
       }
     }
 
-    stage("Build") {
+    stage("Build PR") {
       agent { node { label 'linux-slave-1' } }
       when {
         branch "PR-*"
